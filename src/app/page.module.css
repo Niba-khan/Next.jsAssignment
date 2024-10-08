@@ -1,0 +1,49 @@
+/* component.module.css */
+
+.background {
+  background-color: blue; 
+  background-image: url('https://media.tenor.com/NXQ8OEBqZ0EAAAAM/galaxy-stars.gif'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-attachment: fixed; 
+  
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;  
+  align-items: center;      
+  height: 100vh;          
+}
+
+.image {
+  border-radius: 10px;   
+  max-width: 150%;      
+  height: auto;         
+}
+
+.heading{
+  color: white;
+}
+.description {
+  text-align: center;    
+  margin-top: 10px;      
+  font-size: 18px;  
+  color: white;      
+}
+
+.downloadButton {
+  background-color: yellow; 
+  color: white; 
+  padding: 25px 50px; 
+  text-decoration: none; 
+  border-radius: 5px;
+  transition: background-color 0.3s;
+
+}
+
+.downloadButton:hover {
+  background-color: rgb(34, 186, 247); 
+}
